@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>源隆工贸</title>
+	<link rel="stylesheet" href="index.css">
+	</head>
+	<script type="text/javascript">
+				function init(){
+					setInterval(changeImg,5000);
+				}
+				var pathArr=new Array(
+					"img/banner.jpg",
+					"img/banner2.jpg",
+					"img/banner3.jpg",
+				);
+				var index = 0;
+				function changeImg(){
+					nextImg();
+				}
+				function preImg(){
+					myimg = document.getElementById("111");
+					index --;
+					if(index<0){
+						index = pathArr.length-1;
+					}
+					myimg.src = pathArr[index];
+				}
+				function nextImg(){
+					myimg = document.getElementById("111");
+					index ++;
+					if(index>=pathArr.length){
+						index = 0;
+					}
+					myimg.src = pathArr[index];
+				}
+			</script>
+	<body onload="init()">
+		<section id="0">
+			<div class="mulu">
+				<div class="mulukuang">
+					<div class="logo">
+						 <img src="./img/logo.png" class="logo_icon" alt="">
+					</div>
+					<a class="pre_option " href="#0">首页</a>
+					<a class="pre_option" href="#1">关于我们</a>
+					<a class="pre_option" href="#2">产品中心</a>
+					<a class="pre_option" href="#3">公司实力</a>
+					<a class="pre_option" href="#4">联系我们</a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="beijing"   >
+
+                   <img src="./img/banner.jpg" class="banner" id="111" alt="">
+
+			</div>
+		</section>
+		<section id="1">
+			<div class="about" >
+				<div class="about1">
+					<div class="wenben">
+						<div class="heng"></div>
+						<div class="zi">关于我们</div>
+						<div class="heng" style="left:283px"></div>
+					    <div class="neirong">日照市源隆工贸有限公司成立于2014年2月，位于山东省日照市岚山区岚山头街道戴家庄子，是以鲜活水产品的精加工制造，销售为主的公司。公司实行以原料到成品的一条龙生产，能够满足不同客户的不同需求，确保了产品的稳定性、高品质、均一性和安全卫生，使公司具备质量优势，带给顾客真正的安全感。</div>
+					</div>
+					<div class="tu">
+						<img src="./img/shousi.jpg" class="shousi" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="2">
+			<div class="chanpinzhongxin">
+				<div class="chanpinzhouxin1">
+					<div class="wenben1">
+						<div class="heng1"></div>
+						<div class="zi1">产品中心</div>
+						<div class="heng1" style="left:152px"></div>
+					</div>
+					<div class="xuanchuan">
+					<img src="./img/car1.png" class="car" alt="" style="left:40px;">
+	                <img src="./img/car2.png" class="car" alt="" style="left:450px;">
+	                <img src="./img/car3.png" class="car" alt="" style="left:860px;">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="3">
+			<div class="gongchang">
+				<div class="gongchang1">
+					<div class="gongchang2">
+						<img src="./img/img.jpg" class="img" alt="">
+						<div class="heng2"></div>
+						<div class="zi" style="left:742px;top:48px;">我们的工厂</div>
+						<div class="heng2" style="left:872px"></div>
+						<div class="neirong1">公司建立了完善的食品安全质量管理体系，并严格贯穿始终，从食品原辅料的源头控制到产品的设计、开发、制造，坚持以精益求精、严格控制、确保质量安全的质量方针，充分保证消费者能够享受到安全、放心、美味的即食水产品。针对每种产品制订HACCP计划，确定关键控制点，并定期进行监控、验证、记录；食品加工车间温度始终控制在15℃以下，产品温度控制10℃以下，加工时间短，确保食品安全；加工过程中人员、设备、工器具的定期清洗、消毒控制，并定期进行监测；产品贮存、运输均保持冷链状态，产品控制温度在-18℃或以下温度。</div>
+					</div>
+					<div class="gongchang2" style="margin-top:76px;">
+						<div class="heng2" style="left:135px;"></div>
+						<div class="zi"style="left:180px;top:48px;">我们的团队</div>
+						<div class="heng2" style="left:302px;"></div>
+						<div class="neirong1" style="left:10px">自创立以来，源隆秉承科学管理、产品创新、服务优质的宗旨，培育了一支专业的研发队伍，成功开发了多款极富市场前景和竞争优势的产品，培育了一批专业的市场人员，在全国部分中心城市设有专业销售分支机构。在品质保证、产品开发、市场推广、客户维护上积累了丰富的经验。</div>
+					<img src="./img/img2.jpg" class="img2" alt="" >
+					</div>
+				</div>
+			</div>
+		</section>
+		<section >
+			<div class="weibu">
+				<div class="weibu1">
+					<a class="pre_option1" href="#0">回到顶部</a>
+					<a class="pre_option1" href="#1">关于我们</a>
+					<a class="pre_option1" href="#2">产品中心</a>
+					<a class="pre_option1" href="#3">公司实力</a>
+					<a class="pre_option1" href="#4">联系我们</a>
+				</div>
+			</div>
+		</section>
+		<section id="4">
+			<div class="xinxilan">
+				<div class="xinxilan1">
+					<div class="tubiao">
+						<img src="./img/logo2.png" class="logo2" alt="">
+					</div>
+					<div class="lianxi">
+						<div class="zi2">日照市源隆工贸有限公司</div>
+						<div class="zi2"style="width:165px;">邮编：276808</div>
+						<div class="zi2">地址：山东省日照市岚山区岚山头街道戴家庄子</div>
+						<div class="zi2"style="width:165px;">客服：龙小姐</div>
+						<div class="zi2">邮箱：<a href="mailto:daiyulong0401@icloud.com" style="color:#ffffff;text-decoration:none;" >daiyulong0401@icloud.com</a></div>
+						<div class="zi2"style="width:165px;">网站：www.yuanlong.xyz</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+
+</html>
