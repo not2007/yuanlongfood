@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>我是猎妖师</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				text-decoration: none;
+			}
+			body {
+				overflow: hidden;
+				background-color: #000000;
+				width: 100vw;
+				min-height: 100vh;
+			}
+			.daohanglan{
+				width: 100vw;
+				height:100px;
+				background-color:#ffffff;
+				position:relative;
+			}
+			.beijing{
+				 width: 1200px;
+				    height: 733px;
+				    background: url(background_img.png) no-repeat center center;
+					margin:auto;
+					position: relative;
+					  top: 60px; left: 0; bottom: 0; right: 0;
+			}
+			.lll{
+				width:1200px;
+				height:100px;
+				margin:auto;
+				position:relative;
+			}
+			.logo{
+				position:absolute;
+				left:20px;
+				top:20px;
+			}
+			.wenben{
+				width:681px;
+				height:460px;
+				position:relative;
+				
+			}
+			.zi1{
+				font-family:SourceHanSansCN-Bold;
+				font-size:52px;
+				color:#ffa200;
+				text-align:left;
+				position:relative;
+			}
+			.zi2{
+				font-family:SourceHanSansCN-Medium;
+				font-size:36px;
+				color:#ffffff;
+				text-align:left;
+				position:relative;
+				margin-top:60px;
+			}
+			.zi3{
+				font-family:SourceHanSansCN-Medium;
+				font-size:24px;
+				color:#ffffff;
+				text-align:left;
+				position:relative;
+				margin-top:50px;
+			}
+			.zi5{
+				font-family:SourceHanSansCN-Medium;
+				font-size:24px;
+				color:#ffffff;
+				text-align:left;
+				position:relative;
+				margin-top:50px;
+			}
+			.iphone{
+				position:relative;
+				float:right;
+				top:-459px;
+			}
+			.btn{
+				position:relative;
+				margin-top:82px;
+			}
+			.zi4{
+				font-family:SourceHanSansCN-Regular;
+				font-size:20px;
+				color:#ffffff;
+				text-align:left;
+				position:relative;
+				text-align:center;
+				top:850px;
+			}
+			@media only screen and (max-width: 1024px) {
+				.daohanglan{
+					width: 100vw;
+					height:100px;
+					background-color:#ffffff;
+					position:relative;
+					z-index:999;
+				}
+				.beijing{
+					    height: 733px;
+					    background: url(background_img.png) no-repeat center center;
+						position: absolute;
+						  top: -1030px; left: 0; bottom: 0; right: 0;
+						width:100%;
+				}
+				.zi1{
+					color:#ffa200;
+				}
+				.wenben{
+					position:relative;
+					left:180px;
+					top:170px;
+					font-weight: 600; 
+				}
+				.iphone{
+				position:relative;
+				float:none;
+				top:200px;
+				}
+				.btn{
+					position:relative;
+					margin-top:82px;
+					left:180px;
+					top:-600px;
+				}
+				.zi4{
+				
+					top:1500px;
+				}
+				.lll{
+					width:0;
+					height:0;
+					margin:0;
+					position:absolute;
+				}
+				.logo{
+					position:absolute;
+					left:200px;
+					top:20px;
+				}
+				</style>
+	</head>
+	<body>
+		<div class="daohanglan" >
+			<div class="lll">
+			<img src="logo_img.png" class="logo">
+			</div>
+			</div>
+		<div class="beijing">
+			
+			<div class="wenben">
+				<div class="zi1">全新魔幻射击游戏</div>
+				<div class="zi2">我是猎妖师：决战万圣夜</div>
+				<div class="zi3" style="line-height:45px;">猎妖师受到诅咒变成青蛙<br>
+				身陷魔界，奋勇战斗，极限求生<br>
+				消灭妖怪，摆脱诅咒，自我救赎<br>
+				</div>
+				<div class="zi5">联系方式：<a href="mailto:daiyulong0401@icloud.com" style="color:white;">daiyulong0401@icloud.com</a></div>
+			</div>
+			<img src="iphone_img.png" class="iphone">
+			<img src="./download_btn.png" class="btn" id="download" >
+		</div>
+			<div class="zi4">Copyright © 日照市源隆工贸有限公司版权所有</div>	
+<script>
+		document.getElementById('download').addEventListener('click', function() {
+						window.location.href = 'https://apps.apple.com/cn/app/id1556168023';
+					})
+	</script>
+	</body>
+
+</html>
