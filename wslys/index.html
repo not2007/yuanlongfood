@@ -8,9 +8,9 @@
 				margin: 0;
 				padding: 0;
 				text-decoration: none;
+		
 			}
 			body {
-				overflow: hidden;
 				background-color: #000000;
 				width: 100vw;
 				min-height: 100vh;
@@ -78,9 +78,10 @@
 				margin-top:50px;
 			}
 			.iphone{
-				position:relative;
-				float:right;
-				top:-459px;
+			    position: absolute;
+			    float: right;
+			    top: 0px;
+			    left: 400px;
 			}
 			.btn{
 				position:relative;
@@ -95,6 +96,7 @@
 				text-align:center;
 				top:850px;
 			}
+
 			@media only screen and (max-width: 1024px) {
 				.daohanglan{
 					width: 100vw;
@@ -106,8 +108,8 @@
 				.beijing{
 					    height: 733px;
 					    background: url(background_img.png) no-repeat center center;
-						position: absolute;
-						  top: -1030px; left: 0; bottom: 0; right: 0;
+						position: relative;
+						  top: 0px; left: 0; bottom: 0; right: 0;
 						width:100%;
 				}
 				.zi1{
@@ -115,24 +117,25 @@
 				}
 				.wenben{
 					position:relative;
-					left:180px;
-					top:170px;
+					left:10%;
+					top:70px;
 					font-weight: 600; 
 				}
 				.iphone{
 				position:relative;
 				float:none;
-				top:200px;
+				top:50px;
+		        left:0px;
+				
 				}
 				.btn{
 					position:relative;
-					margin-top:82px;
-					left:180px;
-					top:-600px;
+					left:10%;
+					top:-700px;
 				}
 				.zi4{
 				
-					top:1500px;
+					top:550px;
 				}
 				.lll{
 					width:0;
@@ -141,10 +144,29 @@
 					position:absolute;
 				}
 				.logo{
-					position:absolute;
-					left:200px;
+					position:relative;
+					left:50px;
 					top:20px;
-				}
+				}}
+				@media only screen and (max-width: 520px) {
+					
+					.iphone{
+				width:340px;
+				height:337.5px;
+					left:0px;
+					position:relative;top:50px;
+					}
+					.btn {
+					    position: relative;
+					    left: 10%;
+						top:50px;
+						margin-bottom:100px;
+						}
+					}
+					.wenben {
+					    width: 80%;
+				
+					}
 				</style>
 	</head>
 	<body>
@@ -167,7 +189,7 @@
 			<img src="iphone_img.png" class="iphone">
 			<img src="./download_btn.png" class="btn" id="download" >
 		</div>
-			<div class="zi4">Copyright © 日照市源隆工贸有限公司版权所有</div>	
+	<!--<div class="zi4">Copyright © 日照市源隆工贸有限公司版权所有</div>-->	
 <script>
 		document.getElementById('download').addEventListener('click', function() {
 						window.location.href = 'https://apps.apple.com/cn/app/id1556168023';
